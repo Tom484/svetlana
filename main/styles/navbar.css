@@ -33,6 +33,12 @@ nav .links {
   height: 100%;
 }
 
+@media screen and (max-width: 800px) {
+  nav .links {
+    display: none;
+  }
+}
+
 nav .link-container-1 {
   position: relative;
   display: flex;

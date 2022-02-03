@@ -58,7 +58,6 @@
   top: 0;
   height: 100%;
   width: 100%;
-  display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr 500px 500px 1fr 1fr;
   z-index: -1;
