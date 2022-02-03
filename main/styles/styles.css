@@ -17,11 +17,15 @@
   border: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   font-family: "Poppins";
   margin: 0;
-  background: #f9f9fb;
+  background: var(--color-light-2);
   padding-top: 75px;
   position: relative;
 }

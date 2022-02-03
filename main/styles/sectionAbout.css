@@ -1,10 +1,5 @@
-.section-about h1 {
-  font-family: "Yellowtail";
-  font-size: 90px;
-}
-
 .section-about-container h3 {
-  font-size: 40px;
+  font-size: 36px;
   text-align: center;
   color: var(--color-dark-1);
   background-color: var(--color-light-2);
@@ -14,13 +9,13 @@
 
 .section-about-container h4 {
   color: var(--color-dark-2);
-  font-size: 28px;
+  font-size: 24px;
   margin: 0;
 }
 
 .section-about-container h5 {
   color: var(--color-light-2);
-  font-size: 22px;
+  font-size: 20px;
   margin: 10px 0;
 }
 
@@ -30,6 +25,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  font-size: 16px;
 }
 
 .section-about-container .section-about {
@@ -50,9 +46,14 @@
   background: var(--color-dark-3);
   color: var(--color-light-3);
   border-radius: 16px;
+  transition: box-shadow 0.4s;
 }
 
-.background-border {
+.section-about-container .sub-sub-section:hover {
+  box-shadow: var(--box-shadow), var(--box-shadow), var(--box-shadow);
+}
+
+.section-about-container .background-border {
   position: absolute;
   top: 0;
   height: 100%;
@@ -62,11 +63,11 @@
   grid-template-columns: 1fr 1fr 500px 500px 1fr 1fr;
   z-index: -1;
 }
-.background-border:last-child {
+.section-about-container .background-border:last-child {
   border-left: none;
 }
 
-.line {
+.section-about-container .line {
   width: 5px;
   width: 100%;
   border-right: 2px dashed var(--color-light-4);

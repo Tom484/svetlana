@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/sectionIntroduction.css" />
     <link rel="stylesheet" href="./styles/sectionAbout.css" />
+    <link rel="stylesheet" href="./styles/quiz.css" />
+    <script src="./scripts/script.js" type="module"></script>
     <title>Jules Gabriel Verne</title>
   </head>
   <body>
@@ -208,6 +210,28 @@
                 zeměpis, latinu či řečtinu. Další roky školy strávil v semináři Saint-Donatien,
                 který popsal ve svém nedokončeném románu Kněz v roce 1839 (Un prêtre en 1839).
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="quiz-container">
+        <div class="quiz">
+          <h3>Quiz o Jules Gabriel Verne</h3>
+          <div class="quiz-content">
+            <div class="question hide" id="question">
+              This is a question, This is a question This is a question
+            </div>
+            <div class="options">
+              <div class="score hide" id="score">0/0</div>
+              <div class="option hide" data-option="0">Lorem ipsum dolor sit.</div>
+              <div class="option hide" data-option="1">Lorem ipsum dolor sit.</div>
+              <div class="option hide" data-option="2">Lorem ipsum dolor sit.</div>
+              <div class="option hide" data-option="3">Lorem ipsum dolor sit.</div>
+
+              <button class="btn btn-next" id="btn-start">Start</button>
+              <button class="btn btn-next hide" id="btn-next">Dalsi</button>
+              <button class="btn btn-next hide" id="btn-reset">Restartovat</button>
+              <button class="btn btn-next hide" id="btn-result">Dokoncit</button>
             </div>
           </div>
         </div>

@@ -11,6 +11,11 @@
   gap: 50px;
 }
 
+.section-introduction-container h1 {
+  font-family: "Yellowtail";
+  font-size: 90px;
+}
+
 .section-introduction-container .section-introduction {
   width: 100%;
   height: 100%;
