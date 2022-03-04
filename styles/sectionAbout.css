@@ -1,0 +1,70 @@
+.section-about-container h3 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: var(--color-dark-2);
+  margin: 0;
+  padding: 20px 0;
+  font-family: "Pacifico";
+}
+
+.section-about-container h4 {
+  color: var(--color-dark-2);
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.section-about-container h5 {
+  color: var(--color-dark-2);
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.section-about-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section-about-container .section-about {
+  max-width: 800px;
+}
+
+.section-about-container .section-about .sub-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 75px 25px;
+  gap: 40px;
+  color: var(--color-dark-3);
+}
+@media (max-width: 800px) {
+  .section-about-container .section-about .sub-section {
+    padding: 40px 25px;
+  }
+}
+
+.section-about-container .sub-sub-section {
+  padding: 25px;
+  background: var(--color-light-1);
+  color: var(--color-dark-3);
+  border-radius: 16px;
+  transition: box-shadow 0.4s;
+  border: 2px solid var(--color-dark-4);
+}
+
+.section-about-container .background-border {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 500px 500px 1fr 1fr;
+  z-index: -1;
+}
+.section-about-container .background-border:last-child {
+  border-left: none;
+}
